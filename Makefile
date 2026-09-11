@@ -7,5 +7,4 @@ install:
 	rm -rf build/
 	sudo mv dist/french_accents_selector/ /opt/
 	sudo ln -s /opt/french_accents_selector/french_accents_selector /usr/local/bin/french_accent_selector
-	rm -rf .
 .PHONY: install
