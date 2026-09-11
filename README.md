@@ -7,10 +7,11 @@ A provided Makefile allow for simple installation of required dependencies and u
 ## Usage:
 
 Run 'make install' to create a dedicated virtual environment for the program and install the required dependencies, ie: pyperclip and getkey
+It will then compile the programm into a binary with pyinstaller and add it to /opt/ and add a link to your usr binaries
 
-Run 'make run-gui' to run the program with the gui.
+Type 'french_accent_selector -g'to run the program with the gui.
 
-Run 'make run' to run the program without the gui.
+Type 'french_accent_selector' to run the program without the gui.
 
 The selected character will be inserted in your clipboard to then be used in any writing use case.
 
